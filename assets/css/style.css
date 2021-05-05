@@ -83,10 +83,12 @@ h1, h2 {
 
 /* creates the level of zoom for the hero images */
 @keyframes hero-zoom {
-    from{ transform: scale(1);
+    from{ 
+        transform: scale(1);
 
     }
-    to{ transform: scale(1.1);
+    to{ 
+        transform: scale(1.1);
 
     }
 }
@@ -95,7 +97,7 @@ h1, h2 {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 
     width: 300px;
     height: 200px;
@@ -182,7 +184,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -190,7 +192,7 @@ hr {
 /* event times */
 
 #times {
-    background-image: url(../images/dublin-city.webp);
+    background-image: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -210,6 +212,12 @@ hr {
     box-sizing: border-box;
 }
 
+#times h2 {	
+    color: #fafafa;	
+}
+
+/* footer */
+
 footer {
     height: 150px;
 }
@@ -226,7 +234,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a
+    color: #3a3a3a;
 }
 
 /* gallery */
